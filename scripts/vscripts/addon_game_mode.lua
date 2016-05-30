@@ -109,3 +109,9 @@ XP_PER_LEVEL_TABLE = {
     122400,-- 49
     127400 -- 50
 }
+for i=1,50 do
+	local originalValue = XP_PER_LEVEL_TABLE[i]
+	if i > 2 then
+		XP_PER_LEVEL_TABLE[i] = XP_PER_LEVEL_TABLE[i] + XP_PER_LEVEL_TABLE[i-1]
+	end
+end 
