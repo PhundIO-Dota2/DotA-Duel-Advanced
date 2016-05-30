@@ -1,0 +1,873 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	//=================================================================================================================
+	// HERO: Dazzle
+	//=================================================================================================================
+	"npc_dota_hero_dazzle_template"
+	{
+		"override_hero"				"npc_dota_hero_dazzle"			// Hero to override
+		"AbilityLayout"			"5"
+		"Ability5"					"skeleton_king_reincarnation"		// Ability 5								
+		"StatusMana"			"400"
+		"Creature"
+		{
+			//Level Up
+			"HPGain"					"50"
+			"DamageGain"				"5"
+			"ArmorGain"					"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"					"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Antimage
+	//=================================================================================================================
+	"npc_dota_hero_antimage_template"
+	{
+		"override_hero"				"npc_dota_hero_antimage"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Axe
+	//=================================================================================================================
+	"npc_dota_hero_axe_template"
+	{
+		"override_hero"				"npc_dota_hero_axe"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Bloodseeker
+	//=================================================================================================================
+	"npc_dota_hero_bloodseeker_template"
+	{
+		"override_hero"				"npc_dota_hero_bloodseeker"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Crystal Maiden
+	//=================================================================================================================
+	"npc_dota_hero_crystal_maiden_template"
+	{
+		"override_hero"				"npc_dota_hero_crystal_maiden"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"					"50"
+			"DamageGain"				"5"
+			"ArmorGain"					"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"					"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Doom Bringer
+	//=================================================================================================================
+	"npc_dota_hero_doom_bringer_template"
+	{
+		"override_hero"				"npc_dota_hero_doom_bringer"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Drow Ranger
+	//=================================================================================================================
+	"npc_dota_hero_drow_ranger_template"
+	{
+		"override_hero"				"npc_dota_hero_drow_ranger"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Earthshaker
+	//=================================================================================================================
+	"npc_dota_hero_earthshaker_template"
+	{
+		"override_hero"				"npc_dota_hero_earthshaker"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Dazzle
+	//=================================================================================================================
+	"npc_dota_hero_faceless_void_template"
+	{
+		"override_hero"				"npc_dota_hero_faceless_void"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"					"50"
+			"DamageGain"				"5"
+			"ArmorGain"					"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"					"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Antimage
+	//=================================================================================================================
+	"npc_dota_hero_furion_template"
+	{
+		"override_hero"				"npc_dota_hero_furion"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Axe
+	//=================================================================================================================
+	"npc_dota_hero_juggernaut_template"
+	{
+		"override_hero"				"npc_dota_hero_juggernaut"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Bloodseeker
+	//=================================================================================================================
+	"npc_dota_hero_kunkka_template"
+	{
+		"override_hero"				"npc_dota_hero_kunkka"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Crystal Maiden
+	//=================================================================================================================
+	"npc_dota_hero_lion_template"
+	{
+		"override_hero"				"npc_dota_hero_lion"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"					"50"
+			"DamageGain"				"5"
+			"ArmorGain"					"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"					"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Doom Bringer
+	//=================================================================================================================
+	"npc_dota_hero_night_stalker_template"
+	{
+		"override_hero"				"npc_dota_hero_night_stalker"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Drow Ranger
+	//=================================================================================================================
+	"npc_dota_hero_pudge_template"
+	{
+		"override_hero"				"npc_dota_hero_pudge"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Earthshaker
+	//=================================================================================================================
+	"npc_dota_hero_pugna_template"
+	{
+		"override_hero"				"npc_dota_hero_pugna"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Dazzle
+	//=================================================================================================================
+	"npc_dota_hero_rattletrap_template"
+	{
+		"override_hero"				"npc_dota_hero_rattletrap"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"					"50"
+			"DamageGain"				"5"
+			"ArmorGain"					"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"					"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Antimage
+	//=================================================================================================================
+	"npc_dota_hero_sand_king_template"
+	{
+		"override_hero"				"npc_dota_hero_sand_king"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Axe
+	//=================================================================================================================
+	"npc_dota_hero_axe_template"
+	{
+		"override_hero"				"npc_dota_hero_axe"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Bloodseeker
+	//=================================================================================================================
+	"npc_dota_hero_sniper_template"
+	{
+		"override_hero"				"npc_dota_hero_sniper"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Crystal Maiden
+	//=================================================================================================================
+	"npc_dota_hero_storm_spirit_template"
+	{
+		"override_hero"				"npc_dota_hero_storm_spirit"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"					"50"
+			"DamageGain"				"5"
+			"ArmorGain"					"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"					"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Doom Bringer
+	//=================================================================================================================
+	"npc_dota_hero_sven_template"
+	{
+		"override_hero"				"npc_dota_hero_sven"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Drow Ranger
+	//=================================================================================================================
+	"npc_dota_hero_drow_ranger_template"
+	{
+		"override_hero"				"npc_dota_hero_drow_ranger"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Earthshaker
+	//=================================================================================================================
+	"npc_dota_hero_tinker_template"
+	{
+		"override_hero"				"npc_dota_hero_tinker"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Dazzle
+	//=================================================================================================================
+	"npc_dota_hero_viper_template"
+	{
+		"override_hero"				"npc_dota_hero_viper"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"					"50"
+			"DamageGain"				"5"
+			"ArmorGain"					"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"					"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Antimage
+	//=================================================================================================================
+	"npc_dota_hero_windrunner_template"
+	{
+		"override_hero"				"npc_dota_hero_windrunner"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Axe
+	//=================================================================================================================
+	"npc_dota_hero_batrider_template"
+	{
+		"override_hero"				"npc_dota_hero_batrider"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Bloodseeker
+	//=================================================================================================================
+	"npc_dota_hero_ursa_template"
+	{
+		"override_hero"				"npc_dota_hero_ursa"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Crystal Maiden
+	//=================================================================================================================
+	"npc_dota_hero_lion_template"
+	{
+		"override_hero"				"npc_dota_hero_lion"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"					"50"
+			"DamageGain"				"5"
+			"ArmorGain"					"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"					"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Doom Bringer
+	//=================================================================================================================
+	"npc_dota_hero_clinkz_template"
+	{
+		"override_hero"				"npc_dota_hero_clinkz"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Drow Ranger
+	//=================================================================================================================
+	"npc_dota_hero_treant_template"
+	{
+		"override_hero"				"npc_dota_hero_treant"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Earthshaker
+	//=================================================================================================================
+	"npc_dota_hero_phantom_assassin_template"
+	{
+		"override_hero"				"npc_dota_hero_phantom_assassin"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Antimage
+	//=================================================================================================================
+	"npc_dota_hero_sand_king_template"
+	{
+		"override_hero"				"npc_dota_hero_sand_king"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Axe
+	//=================================================================================================================
+	"npc_dota_hero_gyrocopter_template"
+	{
+		"override_hero"				"npc_dota_hero_gyrocopter"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Bloodseeker
+	//=================================================================================================================
+	"npc_dota_hero_rubick_template"
+	{
+		"override_hero"				"npc_dota_hero_rubick"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Crystal Maiden
+	//=================================================================================================================
+	"npc_dota_hero_disruptor_template"
+	{
+		"override_hero"				"npc_dota_hero_disruptor"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"					"50"
+			"DamageGain"				"5"
+			"ArmorGain"					"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"					"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Doom Bringer
+	//=================================================================================================================
+	"npc_dota_hero_nyx_assassin_template"
+	{
+		"override_hero"				"npc_dota_hero_nyx_assassin"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Drow Ranger
+	//=================================================================================================================
+	"npc_dota_hero_meepo_template"
+	{
+		"override_hero"				"npc_dota_hero_meepo"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Earthshaker
+	//=================================================================================================================
+	"npc_dota_hero_magnataur_template"
+	{
+		"override_hero"				"npc_dota_hero_magnataur"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Dazzle
+	//=================================================================================================================
+	"npc_dota_hero_centaur_template"
+	{
+		"override_hero"				"npc_dota_hero_centaur"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"					"50"
+			"DamageGain"				"5"
+			"ArmorGain"					"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"					"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Antimage
+	//=================================================================================================================
+	"npc_dota_hero_slark_template"
+	{
+		"override_hero"				"npc_dota_hero_slark"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Axe
+	//=================================================================================================================
+	"npc_dota_hero_shredder_template"
+	{
+		"override_hero"				"npc_dota_hero_shredder"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Bloodseeker
+	//=================================================================================================================
+	"npc_dota_hero_tusk_template"
+	{
+		"override_hero"				"npc_dota_hero_tusk"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Crystal Maiden
+	//=================================================================================================================
+	"npc_dota_hero_bristleback_template"
+	{
+		"override_hero"				"npc_dota_hero_bristleback"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"					"50"
+			"DamageGain"				"5"
+			"ArmorGain"					"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"					"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Doom Bringer
+	//=================================================================================================================
+	"npc_dota_hero_skywrath_mage_template"
+	{
+		"override_hero"				"npc_dota_hero_skywrath_mage"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Drow Ranger
+	//=================================================================================================================
+	"npc_dota_hero_elder_titan_template"
+	{
+		"override_hero"				"npc_dota_hero_elder_titan"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Earthshaker
+	//=================================================================================================================
+	"npc_dota_hero_legion_commander_template"
+	{
+		"override_hero"				"npc_dota_hero_legion_commander"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+	//=================================================================================================================
+	// HERO: Abaddon
+	//=================================================================================================================
+	"npc_dota_hero_abaddon_template"
+	{
+		"override_hero"				"npc_dota_hero_abaddon"			// Hero to override
+		"Creature"
+		{
+			//Level Up
+			"HPGain"				"50"
+			"DamageGain"				"5"
+			"ArmorGain"				"0.5"
+			"MagicResistGain"			"0.1"
+			"MoveSpeedGain"				"1"
+			"BountyGain"				"50"
+			"XPGain"				"50"
+		}
+	}
+}
