@@ -40,9 +40,9 @@ GameRules:SetUseUniversalShopMode( true )
 GameRules:SetGoldTickTime( 0.45 )
 GameRules:SetGoldPerTick( 1 )
 
-    GameRules:GetGameModeEntity():SetUseCustomHeroLevels( true ) -- установка кастомной системы урвоней
-    GameRules:GetGameModeEntity():SetCustomHeroMaxLevel( 50 ) -- максимальный уровень
-    GameRules:GetGameModeEntity():SetCustomXPRequiredToReachNextLevel( XP_PER_LEVEL_TABLE ) -- указываем таблицу
+    GameRules:GetGameModeEntity():SetUseCustomHeroLevels( true ) -- СѓСЃС‚Р°РЅРѕРІРєР° РєР°СЃС‚РѕРјРЅРѕР№ СЃРёСЃС‚РµРјС‹ СѓСЂРІРѕРЅРµР№
+    GameRules:GetGameModeEntity():SetCustomHeroMaxLevel( 50 ) -- РјР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СѓСЂРѕРІРµРЅСЊ
+    GameRules:GetGameModeEntity():SetCustomXPRequiredToReachNextLevel( XP_PER_LEVEL_TABLE ) -- СѓРєР°Р·С‹РІР°РµРј С‚Р°Р±Р»РёС†Сѓ
 	print( "Template addon is loaded." )
 	GameRules:GetGameModeEntity():SetThink( "OnThink", self, "GlobalThink", 2 )
 end
@@ -57,7 +57,6 @@ function CAddonTemplateGameMode:OnThink()
 	return 1
 end
 
--- Задаем таблицу опыта
 XP_PER_LEVEL_TABLE = {
     0,-- 1
     200,-- 2
@@ -109,5 +108,4 @@ XP_PER_LEVEL_TABLE = {
     117500,-- 48
     122400,-- 49
     127400 -- 50
-    --и т.д. до 100
 }
